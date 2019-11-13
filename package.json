@@ -27,12 +27,12 @@
   "homepage": "https://github.com/types/promise-events#readme",
   "devDependencies": {
     "assert": "^2.0.0",
-    "greenkeeper-postpublish": "^1.0.1",
+    "greenkeeper-postpublish": "^2.0.0",
     "promise-events": "^0.1.6",
-    "ts-node": "^4.0.0",
+    "ts-node": "^8.5.0",
     "tslint": "^5.2.0",
     "tslint-config-typings": "^0.3.1",
-    "typescript": "^2.0.3",
+    "typescript": "^3.7.2",
     "typings": "^2.1.1"
   }
 }
