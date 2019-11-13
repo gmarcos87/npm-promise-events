@@ -1,0 +1,38 @@
+{
+  "name": "@types/promise-events",
+  "version": "0.1.6",
+  "description": "Types for https://github.com/yanickrochon/promise-events",
+  "typings": "index.d.ts",
+  "scripts": {
+    "lint": "tslint index.d.ts",
+    "bundle": "typings bundle -o bundle.d.ts",
+    "exec": "ts-node test.ts",
+    "test": "npm run lint && npm run bundle && npm run exec",
+    "prepublish": "typings install",
+    "postpublish": "greenkeeper-postpublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/types/promise-events.git"
+  },
+  "author": {
+    "name": "Marcos Gutierrez",
+    "email": "gmarcos87@gmail.com",
+    "url": "https://mesheando.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/types/promise-events/issues"
+  },
+  "homepage": "https://github.com/types/promise-events#readme",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "greenkeeper-postpublish": "^1.0.1",
+    "promise-events": "^0.1.6",
+    "ts-node": "^4.0.0",
+    "tslint": "^5.2.0",
+    "tslint-config-typings": "^0.3.1",
+    "typescript": "^2.0.3",
+    "typings": "^2.1.1"
+  }
+}
